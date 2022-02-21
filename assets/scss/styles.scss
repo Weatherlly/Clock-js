@@ -59,7 +59,6 @@ body.dark-theme{
     border-radius: 50%;
     box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 0%, 100%, 1),
                 inset 1px 1px 1px hsla(var(--hue-color), 30%, 86%, 1);
-    color: var(--first-color);
     cursor: pointer;
     transition: .4s; // For dark mode animation
 }
