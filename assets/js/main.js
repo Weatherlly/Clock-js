@@ -121,7 +121,8 @@ function changeClock(){
         //console.log("24 Hours");
     } 
     else { /* Changes to 12 hour clock */
-        aa = hh - 12;
+        //aa = hh - 12;
+        if(hh > 12){hh - 12}
         textAmPm.style.display = 'block';
         //console.log("12 Hours");
     }
